@@ -1,36 +1,58 @@
-.breadcrumb-box{
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 14px;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 0.88rem;
+  color: #001e3c;
+  letter-spacing: 0.25px;
+  transition: all 0.3s ease-in-out;
+}
+
+.description_screen .breadcrumb-box {
   padding: 15px 40px;
 }
-.flexcontainer{
+.description_screen .flexcontainer {
   display: flex;
   flex-wrap: wrap;
   flex: 100%;
 }
-.flexcontainer-wid{
+.description_screen .flexcontainer-wid {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
   justify-content: space-between;
 }
-.flex-hall-1{
+.description_screen .flex-hall-1 {
   flex: 60%;
 }
-.flex-hall-1i{
+.description_screen .flex-hall-1i {
   flex: 30%;
   display: flex;
   flex-direction: row;
   justify-content: right;
   align-items: center;
 }
-.hall-main-name-box{
+.description_screen .hall-main-name-box {
   padding: 20px 60px;
 }
-.title-hall{
+.description_screen .title-hall {
   font-size: 40px;
   color: lightblue;
   display: inline-block;
 }
-.price-pkr{
+.description_screen .price-pkr {
   display: inline-block;
   border-left: 1px solid #c4c4c4;
   margin-left: 20px;
@@ -38,14 +60,14 @@
   font-weight: bold;
   font-size: 18px;
 }
-.bold{
+.description_screen .bold {
   font-size: 32px;
   color: lightblue;
 }
-.address{
+.description_screen .address {
   font-size: 18px;
 }
-.call-btn{
+.description_screen .call-btn {
   padding: 10px;
   color: #1a1a1a;
   text-align: center;
@@ -55,14 +77,14 @@
   font-size: 14px;
   border-radius: 4px;
   width: 130px;
-  transition: .25s all ease;
+  transition: 0.25s all ease;
   cursor: pointer;
 }
-.call-btn:hover{
+.description_screen .call-btn:hover {
   background-color: #fff;
-  transition: .25s all ease;
+  transition: 0.25s all ease;
 }
-.inquire-btn{
+.description_screen .inquire-btn {
   padding: 10px;
   color: #1a1a1a;
   text-align: center;
@@ -74,158 +96,127 @@
   border-radius: 4px;
   width: 130px;
   margin-left: 10px;
-  transition: .25s all ease;
+  transition: 0.25s all ease;
 }
-.inquire-btn:hover{
-  transition: .25s all ease;
+.description_screen .inquire-btn:hover {
+  transition: 0.25s all ease;
   background-color: lightblue;
 }
-.main-box-desc{
+.description_screen .main-box-desc {
   padding: 40px 120px;
 }
-.flex-desc-1{
+.description_screen .flex-desc-1 {
   flex: 25%;
 }
-.flex-desc-1i{
+.description_screen .flex-desc-1i {
   flex: 65%;
   margin-left: 30px;
 }
-.flex-wid-desc{
+.description_screen .flex-wid-desc {
   width: 24.8%;
 }
-.btn-box{
+.description_screen .btn-box {
   background-color: lightblue;
   color: #1a1a1a;
   font-weight: bold;
   text-align: center;
   padding: 10px;
-  transition: .3s all ease;
+  transition: 0.3s all ease;
   cursor: pointer;
-  border-bottom: 2px solid rgb(129, 201, 224);
+  border-bottom: 2px solid #81c9e0;
 }
-.btn-box:hover{
+.description_screen .btn-box:hover {
   color: #fff;
-  transition: .3s all ease;
+  transition: 0.3s all ease;
 }
-.flex-desc-2{
+.description_screen .flex-desc-2 {
   flex: 65%;
 }
-.flex-desc-2i{
+.description_screen .flex-desc-2i {
   flex: 25%;
   margin-left: 30px;
 }
-.map-desc,.map-box{
+.description_screen .map-desc,
+.description_screen .map-box {
   width: 100%;
   height: 300px;
 }
-.get-desc{
+.description_screen .get-desc {
   font-weight: bold;
   font-size: 19px;
   margin-bottom: 10px;
 }
-.sec-row{
+.description_screen .sec-row {
   margin-top: 30px;
 }
-.features-desc{
+.description_screen .features-desc {
   margin-top: 30px;
 }
-.feature-heading{
+.description_screen .feature-heading {
   font-weight: bold;
   font-size: 26px;
   margin-bottom: 10px;
 }
-.flex-feature{
+.description_screen .flex-feature {
   flex: 30%;
 }
-.flex-feature-i{
+.description_screen .flex-feature-i {
   flex: 30%;
   margin-left: 25px;
 }
-.feature-name{
+.description_screen .feature-name {
   font-size: 18px;
   font-weight: 500;
   margin-left: 3px;
 }
-.feature-have{
+.description_screen .feature-have {
   margin-top: 5px;
 }
-.feature-have i{
+.description_screen .feature-have i {
   color: lightblue;
 }
-.review-box{
+.description_screen .review-box {
   padding: 15px;
   border: 1px solid #c4c4c4;
   height: 250px;
 }
-.icon-rev{
+.description_screen .icon-rev {
   background-color: green;
   border-radius: 100%;
   color: #fff;
-  font-weight: bold;    
+  font-weight: bold;
   width: 45px;
   height: 45px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
 }
-.rev-name{
+.description_screen .rev-name {
   display: inline-block;
   margin-left: 10px;
   vertical-align: middle;
 }
-.rev-title{
+.description_screen .rev-title {
   font-size: 14px;
   font-weight: bold;
 }
-.flag{
+.description_screen .flag {
   width: 20px !important;
   display: inline-block !important;
 }
-.rev-country{
+.description_screen .rev-country {
   font-size: 10px;
   color: #929292;
 }
-.rev-write{
+.description_screen .rev-write {
   font-size: 14px;
   margin-top: 20px;
 }
-.country-name{
+.description_screen .country-name {
   display: inline-block;
 }
-.reviews-desc{
+.description_screen .reviews-desc {
   padding: 20px 0px 0px;
 }
-.owl-theme {
-  position: relative;
-}
-.owl-nav{
-  position: absolute;
-  top: 40%;
-  width: 100%;
-}
-.owl-carousel .owl-nav button.owl-prev{
-  position: absolute;
-  left: 0;
-  background-color: #fff !important;
-  font-size: 40px !important;
-  width: 30px;
-  height: 30px;
-  border: 1px solid #d6d6d6;
-  border-radius: 100%;
-} 
-.owl-carousel .owl-nav button.owl-next{
-  position: absolute;
-  right: 0;
-  background-color: #fff !important;
-  font-size: 40px !important;
-  width: 30px;
-  height: 30px;
-  border: 1px solid #d6d6d6;
-  border-radius: 100%;
-}
-.owl-carousel .owl-nav button.owl-prev:hover,.owl-carousel .owl-nav button.owl-next:hover{
-  color: #000;
-}
-.owl-theme .owl-dots{
-  display: none;
-}
+
+/*# sourceMappingURL=app.css.map */

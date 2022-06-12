@@ -1,0 +1,60 @@
+//body color
+$color-dark: #001e3c;
+$background-dark-body: #001e3c;
+$background-light-body: #edf3f7;
+
+// color palete
+$color-primary: #e7ebf0;
+$color-seconday: #3399ff; // use in _layout
+$color-seconday-varient: #22525d; // use in _layout
+$color-white: #fff;
+$gray_bg: #47628233;
+$dark_bg: #476282cc;
+
+$color-dark_a: #030303;
+$color-info-dark: #ffffffcc;
+$color-warning-dark: #d5ab13;
+
+$color-info-light: #f1f1f1;
+$color-background-dark: #0a1929b3;
+$color-background-light: #cac8ebb3;
+$drawer-mob-background-light: #cac8eb;
+
+$transition: all 0.3s ease-in-out;
+
+// sidebar
+$sidebar-width: 256px;
+$sidebar-width-togle: 68px;
+$border-side-nav: #c2e0ff14;
+$hover-side-nav: #ffffff14;
+
+// topbar
+$top-bar-height: 52px;
+
+// card
+$card-bg-dark: #132f4c;
+$card-shadow-dark: unset;
+
+$card-shadow-light: 0 0 5px 0 #c6cadb;
+$card-bg-light: #cac8eb;
+
+// border
+$border-radius-1: 10px;
+$border-dark-1: 1px solid #1e4976;
+
+$border-light-1: 1px solid transparent;
+
+// datatables
+$row_bg_dark: #1c2e45;
+$row_even_bg_dark: #17283e;
+$header_bg_dark: #172839;
+$row_color_dark: #ffffffcc;
+
+$row_bg_light: #fff;
+$row_even_bg_light: #eeebeb;
+$header_bg_light: #e2dfdf;
+$row_color_light: #132f4c;
+
+
+// overlay
+$overlay_bg_light: #807e7e91;
