@@ -123,7 +123,7 @@ body {
   padding: 10px;
   transition: 0.3s all ease;
   cursor: pointer;
-  border-bottom: 2px solid #81c9e0;
+  border-bottom: 2px solid rgb(129, 201, 224);
 }
 .description_screen .btn-box:hover {
   color: #fff;
@@ -217,6 +217,56 @@ body {
 }
 .description_screen .reviews-desc {
   padding: 20px 0px 0px;
+}
+.description_screen .owl-theme {
+  position: relative;
+}
+.description_screen .owl-nav {
+  position: absolute;
+  top: 40%;
+  width: 100%;
+}
+.description_screen .owl-carousel .owl-nav button.owl-prev {
+  position: absolute;
+  left: -40px;
+  background-color: #fff !important;
+  font-size: 40px !important;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #d6d6d6;
+  border-radius: 100%;
+}
+.description_screen .owl-carousel .owl-nav button.owl-next {
+  position: absolute;
+  right: -40px;
+  background-color: #fff !important;
+  font-size: 40px !important;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #d6d6d6;
+  border-radius: 100%;
+}
+.description_screen .owl-carousel .owl-nav button.owl-prev:hover,
+.description_screen .owl-carousel .owl-nav button.owl-next:hover {
+  color: #000;
+}
+.description_screen .owl-theme .owl-dots {
+  display: none;
+}
+.description_screen .owl-next span, .description_screen .owl-prev span {
+  position: absolute;
+  top: -75%;
+  left: 27%;
+}
+.description_screen .faq-section {
+  padding: 40px 20px;
+}
+.description_screen .faq-left-box {
+  background-color: lightblue;
+  padding: 25px;
+  font-size: 24px;
+  font-weight: bold;
+  height: 100%;
 }
 
 /*# sourceMappingURL=app.css.map */

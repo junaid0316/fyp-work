@@ -197,39 +197,54 @@
     .reviews-desc {
         padding: 20px 0px 0px;
     }
-    // .owl-theme {
-    //     position: relative;
-    // }
-    // .owl-nav {
-    //     position: absolute;
-    //     top: 40%;
-    //     width: 100%;
-    // }
-    // .owl-carousel .owl-nav button.owl-prev {
-    //     position: absolute;
-    //     left: 0;
-    //     background-color: #fff !important;
-    //     font-size: 40px !important;
-    //     width: 30px;
-    //     height: 30px;
-    //     border: 1px solid #d6d6d6;
-    //     border-radius: 100%;
-    // }
-    // .owl-carousel .owl-nav button.owl-next {
-    //     position: absolute;
-    //     right: 0;
-    //     background-color: #fff !important;
-    //     font-size: 40px !important;
-    //     width: 30px;
-    //     height: 30px;
-    //     border: 1px solid #d6d6d6;
-    //     border-radius: 100%;
-    // }
-    // .owl-carousel .owl-nav button.owl-prev:hover,
-    // .owl-carousel .owl-nav button.owl-next:hover {
-    //     color: #000;
-    // }
-    // .owl-theme .owl-dots {
-    //     display: none;
-    // }
+    .owl-theme {
+        position: relative;
+    }
+    .owl-nav {
+        position: absolute;
+        top: 40%;
+        width: 100%;
+    }
+    .owl-carousel .owl-nav button.owl-prev {
+        position: absolute;
+        left: -40px;
+        background-color: #fff !important;
+        font-size: 40px !important;
+        width: 30px;
+        height: 30px;
+        border: 1px solid #d6d6d6;
+        border-radius: 100%;
+    }
+    .owl-carousel .owl-nav button.owl-next {
+        position: absolute;
+        right: -40px;
+        background-color: #fff !important;
+        font-size: 40px !important;
+        width: 30px;
+        height: 30px;
+        border: 1px solid #d6d6d6;
+        border-radius: 100%;
+    }
+    .owl-carousel .owl-nav button.owl-prev:hover,
+    .owl-carousel .owl-nav button.owl-next:hover {
+        color: #000;
+    }
+    .owl-theme .owl-dots {
+        display: none;
+    }
+    .owl-next span,.owl-prev span{
+        position: absolute;
+        top: -75%;
+        left: 27%;
+    }
+    .faq-section{
+        padding: 40px 20px;
+    }
+    .faq-left-box{
+        background-color: lightblue;
+        padding: 25px;
+        font-size: 24px;
+        font-weight: bold;
+        height: 100%;
+    }
 }
