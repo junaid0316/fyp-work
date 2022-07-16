@@ -1,0 +1,76 @@
+.searchbox_wrapper{
+    .range_select_box {
+        border: 1px solid #d7d7d7;
+        background-color: #f1f1f1;
+        padding: 20px 15px;
+        box-shadow: 0 10px 31px 0 rgb(7 152 255 / 9%);
+    }
+    
+    .flexcontainer-range {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .inputs-range {
+        width: 24%;
+    }
+    
+    .inputs-range2 {
+        width: 48%;
+    }
+    
+    .inputs-range select {
+        width: 100%;
+        outline: none;
+        border: 1px solid #eee;
+        padding: 7px 10px;
+        color: #768082;
+    }
+    
+    .tabs-boxes select {
+        width: fit-content;
+        outline: none;
+        border: none;
+        padding: 7px 10px;
+        color: #768082;
+    }
+    
+    .range-opt {
+        padding: 7px !important;
+        border-top: 1px solid #eee !important;
+    }
+    
+    .inp-range {
+        width: 100%;
+        outline: none;
+        border: 1px solid #eee;
+        padding: 7px 10px;
+        color: #768082;
+    }
+    
+    .inputs-range button {
+        background-color: #2d60ff;
+        padding: 15px;
+        font-weight: bold;
+        font-size: 18px;
+        width: 100%;
+        text-align: center;
+        color: #fff;
+        outline: none;
+        border: none;
+    }
+    
+    .price-range-wr {
+        font-size: 14px;
+        color: #768082;
+    }
+    
+    .clr-range {
+        color: #2d60ff;
+        font-weight: 600;
+    }
+}

@@ -1,0 +1,34 @@
+.filter_wrapper{
+    .tabs-prop{
+      padding: 10px 15px;
+      border-top: 1px solid #d7d7d7;
+      border-bottom: 1px solid #d7d7d7;
+      background-color: #fff;
+      box-shadow: 0 10px 31px 0 rgb(7 152 255 / 9%);
+      margin: 25px 0px;
+    }
+    .tabs-boxes{
+      display: inline-block;
+    }
+    .select-box-prop option{
+      padding: 7px !important;
+      font-size: 14px;
+    }
+    .list-icon{
+      color: #768082;
+      float: right;
+      font-size: 20px;
+      margin-top: 2px;
+    }
+    .tabs-boxes select{
+      width: fit-content;
+      outline: none;
+      border: none;
+      padding: 7px 10px;
+      color: #768082;
+    }
+    .range-opt{
+      padding: 7px !important;
+      border-top: 1px solid #eee !important;
+    }
+}
