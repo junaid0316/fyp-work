@@ -9,7 +9,6 @@ import Carousel, { Modal, ModalGateway } from "react-images";
 import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
-import flag from '../images/flag.png'
 import Accordion from 'react-bootstrap/Accordion'
 
 function handleClick(event) {
@@ -235,7 +234,7 @@ const Description = () => {
                                     <div className='rev-name'>
                                         <div className='rev-title'>Ahmed</div>
                                         <div className='rev-country'>
-                                            <img src={flag} className='flag' /> <span className='country-name'>United Arab</span>
+                                            <img src='/images/flag.png' className='flag' /> <span className='country-name'>United Arab</span>
                                         </div>
                                     </div>
                                 </div>
@@ -253,7 +252,7 @@ const Description = () => {
                                     <div className='rev-name'>
                                         <div className='rev-title'>Ahmed</div>
                                         <div className='rev-country'>
-                                            <img src={flag} className='flag' /> <span className='country-name'>United Arab</span>
+                                            <img src='/images/flag.png' className='flag' /> <span className='country-name'>United Arab</span>
                                         </div>
                                     </div>
                                 </div>
@@ -271,7 +270,7 @@ const Description = () => {
                                     <div className='rev-name'>
                                         <div className='rev-title'>Ahmed</div>
                                         <div className='rev-country'>
-                                            <img src={flag} className='flag' /> <span className='country-name'>United Arab</span>
+                                            <img src='/images/flag.png' className='flag' /> <span className='country-name'>United Arab</span>
                                         </div>
                                     </div>
                                 </div>
@@ -289,7 +288,7 @@ const Description = () => {
                                     <div className='rev-name'>
                                         <div className='rev-title'>Ahmed</div>
                                         <div className='rev-country'>
-                                            <img src={flag} className='flag' /> <span className='country-name'>United Arab</span>
+                                            <img src='/images/flag.png' className='flag' /> <span className='country-name'>United Arab</span>
                                         </div>
                                     </div>
                                 </div>
@@ -307,7 +306,7 @@ const Description = () => {
                                     <div className='rev-name'>
                                         <div className='rev-title'>Ahmed</div>
                                         <div className='rev-country'>
-                                            <img src={flag} className='flag' /> <span className='country-name'>United Arab</span>
+                                            <img src='/images/flag.png' className='flag' /> <span className='country-name'>United Arab</span>
                                         </div>
                                     </div>
                                 </div>
