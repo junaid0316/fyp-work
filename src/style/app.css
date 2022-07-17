@@ -889,4 +889,107 @@ body {
   height: 520px;
 }
 
+.hero_box_wrapper {
+  background-image: url("../../public/images/hero_bg1.jpg");
+  background-size: cover;
+}
+.hero_box_wrapper .hero_box {
+  background-color: rgba(0, 0, 0, 0.4);
+  height: 100vh;
+  padding: 20px 10px;
+}
+.hero_box_wrapper .hero-d-flex-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 80vh;
+}
+.hero_box_wrapper .main-hero-box {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 15px 10px;
+  width: 80%;
+  margin: 60px 0px;
+}
+.hero_box_wrapper .form-search {
+  display: flex;
+  align-items: center;
+}
+.hero_box_wrapper .input_boxes {
+  width: 44%;
+}
+.hero_box_wrapper .location_select {
+  border: none;
+  font-size: 18px;
+  font-weight: bold;
+  color: grey;
+  padding: 10px;
+  outline: none;
+  width: 95%;
+}
+.hero_box_wrapper .searchbtn {
+  background-color: #2d60ff;
+  font-size: 17px;
+  font-weight: 500;
+  padding: 10px 15px;
+  color: #fff;
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  width: 10%;
+}
+.hero_box_wrapper .searchbtn:hover, .hero_box_wrapper .call-wr:hover {
+  box-shadow: 0px 0px 20px 3px rgb(7, 152, 255);
+}
+.hero_box_wrapper .hero-sect-heading {
+  color: #fff;
+  font-size: 56px;
+  display: block;
+}
+.hero_box_wrapper .hero-last-box {
+  color: #fff;
+  text-align: center;
+  text-shadow: 0px 0px 8px #2d60ff;
+}
+.hero_box_wrapper .hero-last-p {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.hero_box_wrapper .call-anc, .hero_box_wrapper .call-anc:hover {
+  text-decoration: none;
+  color: #fff;
+}
+.hero_box_wrapper .call-wr {
+  background-color: #2d60ff;
+  padding: 10px 30px;
+  font-size: 18px;
+  font-weight: 500;
+  width: fit-content;
+  border-radius: 4px;
+}
+.hero_box_wrapper .call-btn-box {
+  margin: 20px auto 0px;
+  width: fit-content;
+}
+
+.navbar_wrapper {
+  height: 20vh;
+}
+.navbar_wrapper .login-btn {
+  background-color: #2d60ff;
+  font-size: 17px;
+  font-weight: 500;
+  padding: 10px 25px;
+  color: #fff;
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.navbar_wrapper .login-btn:hover {
+  box-shadow: 0px 0px 10px 0px rgb(7, 152, 255);
+}
+
 /*# sourceMappingURL=app.css.map */

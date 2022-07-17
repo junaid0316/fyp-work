@@ -1,0 +1,85 @@
+.hero_box_wrapper{
+    background-image: url("../../public/images/hero_bg1.jpg");
+    background-size: cover;
+    .hero_box{
+        background-color: rgba(0, 0, 0, 0.4);
+        height: 100vh;
+        padding: 20px 10px;
+    }
+    .hero-d-flex-box{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 80vh;
+    }
+    .main-hero-box{
+        background-color: #fff;
+        border-radius: 10px;
+        padding: 15px 10px;
+        width: 80%;
+        margin: 60px 0px;
+    }
+    .form-search{
+        display: flex;
+        align-items: center;
+    }
+    .input_boxes{
+        width: 44%;
+    }
+    .location_select{
+        border: none;
+        font-size: 18px;
+        font-weight: bold;
+        color: grey;
+        padding: 10px;
+        outline: none;
+        width: 95%;
+    }
+    .searchbtn{
+        background-color: #2d60ff;
+        font-size: 17px;
+        font-weight: 500;
+        padding: 10px 15px;
+        color: #fff;
+        outline: none;
+        border: none;
+        border-radius: 4px;
+        width: 10%;
+    }
+    .searchbtn:hover,.call-wr:hover{
+        box-shadow: 0px 0px 20px 3px rgb(7, 152, 255);
+    }
+    .hero-sect-heading{
+        color: #fff;
+        // text-shadow: 0px 0px 15px #2d60ff;
+        font-size: 56px;
+        display: block;
+    }
+    .hero-last-box{
+        color: #fff;
+        text-align: center;
+        text-shadow: 0px 0px 8px #2d60ff;
+    }
+    .hero-last-p{
+        font-size: 18px;
+        font-weight: 500;
+        margin-bottom: 5px;
+    }
+    .call-anc,.call-anc:hover{
+        text-decoration: none;
+        color: #fff;
+    }
+    .call-wr{
+        background-color: #2d60ff;
+        padding: 10px 30px;
+        font-size: 18px;
+        font-weight: 500;
+        width: fit-content;
+        border-radius: 4px;
+    }
+    .call-btn-box{
+        margin: 20px auto 0px;
+        width: fit-content;
+    }
+}

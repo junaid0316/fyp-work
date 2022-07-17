@@ -1,0 +1,17 @@
+.navbar_wrapper{
+    height: 20vh;
+    .login-btn{
+        background-color: #2d60ff;
+        font-size: 17px;
+        font-weight: 500;
+        padding: 10px 25px;
+        color: #fff;
+        outline: none;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    .login-btn:hover{
+        box-shadow: 0px 0px 10px 0px rgb(7, 152, 255);
+    }
+}
